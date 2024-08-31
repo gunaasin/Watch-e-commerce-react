@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import ProductList from './ProductList'; 
 import ProductDetail from './ProductDetail'; 
-import '../assets/watch-ani1.gif';
+// import '../assets/watch-ani1.gif';
 const Buying = () => {
   const products = [
     { id: 1, imageUrl: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/5f106e190402637.65ba53464937e.png', price: '$ 299.99', description: ' Sonata A-51k', details: 'luxury watch for men: Cool colorful blue stroke dial, 42MM Big face dial with date window, easy to read, classic business style, suitable for every mature man.' },
