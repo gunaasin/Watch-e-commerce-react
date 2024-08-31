@@ -1,0 +1,124 @@
+/* Nav.css */
+
+.navbar {
+    
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+
+  .navbar-toggle {
+    padding-left: 15px;
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .navbar-links {
+      display: none; 
+      flex-direction: column;
+      margin: 10px ;
+      gap: 0;
+      position: absolute;
+      top: 70px;
+      border: 1px solid rgba(128, 128, 128, 0.297);
+      border-radius: 4px ;
+      right:  0;
+      width:30%;
+      height: 220px;
+      background-color: #212424;
+    }
+   
+    .nav-l{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+  
+    .navbar-links.open {
+      display: flex; 
+     
+    }
+  
+    .navbar-links a {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #575757;
+    }
+  
+    .navbar-toggle {
+      display: block; 
+    }
+  }
+  @media (max-width:640px) {
+    .navbar-links {
+      display: none; 
+      flex-direction: column;
+      margin: 10px ;
+      margin-right: 30px;
+      gap: 0;
+      position: absolute;
+      top: 70px;
+      border: 1px solid rgba(128, 128, 128, 0.297);
+      border-radius: 4px ;
+      right:  0;
+      width:220px;
+      height: 250px;
+      background-color: rgba(39, 38, 38, 0.817);
+    }
+  }
+  @media (max-width: 475px) {
+    .navbar-links {
+      display: none; 
+      flex-direction: column;
+      margin: 10px ;
+      margin-right: 10px;
+      gap: 0;
+      position: absolute;
+      top: 70px;
+      border: 1px solid rgba(128, 128, 128, 0.297);
+      border-radius: 4px ;
+      right:  0;
+      width:190px;
+      height: 250px;
+      background-color: rgba(39, 38, 38, 0.817);
+    }
+    .navbar-toggle {
+      padding: 0px 15px;
+    }
+  }

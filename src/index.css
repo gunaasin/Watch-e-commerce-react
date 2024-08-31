@@ -1,0 +1,10 @@
+
+body {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(11, 11, 11);
+}
+
