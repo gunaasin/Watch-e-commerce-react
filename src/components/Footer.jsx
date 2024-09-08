@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="fotter-p">
         <div className="first-fo">
-          <a href="https://gunaportfoloioreact.vercel.app/">@ Clavder - GuNa - 2024</a>
+          <a href="https://gunaportfoliogn.vercel.app/">@ Clavder - GuNa - 2024</a>
         </div>
         <div className="footer-box1">
         <h3>
@@ -22,7 +22,7 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://gunaportfoloioreact.vercel.app/" target="_blank">
+              <a href="https://gunaportfoliogn.vercel.app/" target="_blank">
               <i className="fa-solid fa-terminal"></i>
                 </a></li>
           </ul>
